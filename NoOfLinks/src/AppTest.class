@@ -1,0 +1,12 @@
+//import java.util.concurrent.TimeUnit; 
+import org.openqa.selenium.By; 
+import org.openqa.selenium.*;  
+public class Flipkart { 
+public static void main(String[] args)  { 
+WebDriverManager.FireFoxDriver().setup();
+WebDriver driver=new FireFoxDriver();
+driver.get("https://www.flikart.com");
+//driver.findElement(By.xpath("//input[@type=\"password\"]")).sendKeys("YOUR PASSWORD"); 
+//driver.quit(); 
+} 
+}

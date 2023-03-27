@@ -1,0 +1,7 @@
+import java.util.List;
+{
+    "java.project.sourcePaths": ["src"],
+    "java.project.outputPath": "bin"
+}
+
+
